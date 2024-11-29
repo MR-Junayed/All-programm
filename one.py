@@ -1,0 +1,15 @@
+a=15
+b=4
+#Addition
+c=a+b
+##Multiplication
+d=a*b
+#Division
+e=a/b
+#Modulus
+f=a%b
+#Exponential
+g=a**b
+print("Addition:",c)
+print("Multiplication:",d)
+print("Division:",e)

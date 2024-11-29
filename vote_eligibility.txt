@@ -1,0 +1,9 @@
+import re
+person=input("Enter name: ")
+age=int(input("Enter person's age: "))
+nationality=input("Enter person's nationality: ")
+gender=input("Enter person's gender: ")
+if age>18 and re.findall("Bangladeshi"or"bd"or"bangladeshi",nationality)and re.findall("F"or"M"or "female" or"Male"or"trans"or"f"or"m",gender):
+    print("eligible for voting")
+else:
+    print("not eligible for voting")
