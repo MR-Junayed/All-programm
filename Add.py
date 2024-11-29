@@ -1,0 +1,8 @@
+Name=input("Name:")
+ID=input("ID:")
+Institute=input("Institute:")
+PresentAddress=input("Present Address:")
+print("Name:",Name,"\n","ID:",ID)
+print(ID)
+print(Institute)
+print(PresentAddress)
